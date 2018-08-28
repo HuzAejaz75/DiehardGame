@@ -1,0 +1,124 @@
+.container
+{
+     text-align: center;
+}
+.left-div
+{
+     display: inline-block;
+     max-width: 150px;
+     vertical-align: top;
+   
+     height: 170px;
+     width: 15%;
+}
+.left-div:hover{
+    border-top: 1px solid greenyellow;
+   
+}
+.right-div:hover{
+    border-top: 1px solid greenyellow;
+   
+}
+.right-div
+{
+     display: inline-block;
+     max-width: 150px;
+
+     height: 170px;
+     width:15%;
+}
+.center-div{
+    display: inline-block;
+  
+
+    height: 170px;
+    width:15%;
+    
+}
+.table{
+   margin:auto;
+   height: 100px;
+   width:100%;
+
+}
+
+.blackboard{
+    height:100px;
+    width:400px;
+  
+   
+    margin:auto
+}
+
+.firstboard{
+  
+    height:100px;
+    width:200px;
+    float:left;
+    color:#da3749;
+   
+}
+.dash{
+    background-color: black;
+    padding-top:20px;
+    border-radius: 10px;
+}
+.bomb{
+    background-image: url('../images/table.png');
+    background-size:200px;
+    background-repeat: no-repeat;
+  
+}
+.image{
+    max-width: 100%;
+    min-height: 50%;
+    height: auto;
+    width: auto\9;
+}
+.left-status{
+    display: inline-block;
+    max-width: 150px;
+    height: 40px;
+    width:15%;
+    margin-left:30px;
+   
+    
+}
+.right-status{
+    display: inline-block;
+    max-width: 150px;
+    height: 40px;
+    width:15%;
+    margin-left:250px;
+    
+}
+.std_button
+{
+     display: inline-block;
+     max-width: 450px;
+     height: 100%;
+     width:100%;
+     margin-top:40px;
+}
+.func{
+    margin-left:5px;
+}
+.status{
+    height: 15px;
+    width:15px;
+    margin:auto;
+   margin-bottom:10px;
+}
+
+@media screen and (max-width: 600px) 
+{
+     .left-div, .right-div
+     {
+          max-width: 100%;
+     }
+}
+.can{
+    margin-left:50px;
+    margin-top: 100px;
+   
+}
