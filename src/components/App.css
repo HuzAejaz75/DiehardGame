@@ -11,6 +11,17 @@
      height: 170px;
      width: 15%;
 }
+
+.left-disp
+{
+     display: inline-block;
+     max-width: 150px;
+     vertical-align: top;
+   
+     height: 80px;
+     width: 15%;
+}
+
 .left-div:hover{
     border-top: 1px solid greenyellow;
    
@@ -69,11 +80,67 @@
     background-repeat: no-repeat;
   
 }
+.bomb_img{
+    width:150px;
+}
+.dot{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    transition:1s; 
+}
+.center{
+    background: rgba(255, 174, 66,1);
+    box-shadow: 0 0 20px rgba(255, 174, 66,1),
+    0 0 40px rgba(229, 6, 6,1),
+    0 0 60px rgba(255, 174, 66,1),
+    0 0 80px rgba(255, 174, 66,1);
+}
+.moves{
+    background-color:black;
+    height:100%;
+    width:100%;
+    color:Red;
+    float:left;
+    text-align:center;
+    
+}
+.list{
+    font-size:15px;
+    color:Red;
+   
+}
+.openingScene{
+    height:100%;
+    width:600px;
+
+    margin:auto;
+    color:black;
+    font-size:40px;
+    padding-top:50px;
+    
+}
+.explode{
+    box-shadow: 0 0 0 30px rgba(255, 174, 66,.5),
+    0 0 0 60px rgba(229, 6, 6,.5),
+    0 0 0 120px rgba(255, 174, 66,.1),
+    0 0 0 240px rgba(244, 66, 75,.5),
+    0 0 0 480px rgba(255, 230, 10,.1),
+    0 0 0 960px rgba(255, 174, 66,.1);
+}
 .image{
     max-width: 100%;
     min-height: 50%;
     height: auto;
     width: auto\9;
+}
+.bomb_img{
+    height:50px;
+    width:150px;
 }
 .left-status{
     display: inline-block;

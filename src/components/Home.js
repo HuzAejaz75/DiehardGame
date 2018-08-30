@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Game from './Game';
-import Nav from './Nav';
-import MainPage from './MainPage';
-import ls from 'local-storage';
-import axios from 'axios'
+
 class Home extends Component {
   constructor(){
     super();
@@ -21,7 +18,6 @@ class Home extends Component {
   render() {
     return (
      <div className="container">
-    
         <Game/>
     </div>
     );
